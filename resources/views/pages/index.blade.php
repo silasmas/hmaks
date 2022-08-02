@@ -1,5 +1,5 @@
-@extends('templates.template'['titre'=>"Accueil"])
-
+@extends('templates.template',['titre'=>"Accueil"])
+@section('titre', 'Accueil')
 @section('content')
 <main id="main">
  <!-- ======= Hero Section ======= -->

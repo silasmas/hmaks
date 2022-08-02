@@ -26,12 +26,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active" href="">Accueil</a></li>
-          <li><a href="">A propos</a></li>
-          <li><a href="">Nos services</a></li>
-          <li><a href="">Annonce</a></li>
-          <li><a href="">Prendre un rendez-vous</a></li>
-          <li><a href="">Publicité</a></li>
+          <li><a class="{{ $titre=="Accueil"?"active":"" }}" href="{{ route('home') }}">Accueil</a></li>
+          <li><a class="{{ $titre=="about"?"active":"" }}" href="{{ route('about') }}">A propos</a></li>
+          <li><a class="{{ $titre=="service"?"active":"" }}" href="{{ route('service') }}">Nos services</a></li>
+          <li><a class="{{ $titre=="annonce"?"active":"" }}" href="{{ route('anonce') }}">Annonce</a></li>
+          <li><a class="{{ $titre=="rdv"?"active":"" }}" href="{{ route('rdv') }}">Prendre un rendez-vous</a></li>
+          <li><a class="{{ $titre=="pub"?"active":"" }}" href="{{ route('pub') }}">Publicité</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
