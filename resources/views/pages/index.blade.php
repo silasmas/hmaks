@@ -1,6 +1,4 @@
-@extends('templates.template')
-
-
+@extends('templates.template'['titre'=>"Accueil"])
 
 @section('content')
 <main id="main">
