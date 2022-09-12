@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
+        <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>{{ config('app.name') }} - @yield('titre')</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        <!-- Stylesheets -->
+        <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
 
-  <title>{{ config('app.name') }} - @yield('titre')</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <!-- Favicons -->
-  <link href="{{ asset('assets/images/logo.png') }}" rel="icon">
-  <link href="{{ asset('assets/images/logo.jpg') }}" rel="apple-touch-icon">
+        <!-- Favicons -->
+        <link href="{{ asset('assets/images/logo.png') }}" rel="icon"  type="image/x-icon">
+        <link href="{{ asset('assets/images/logo.jpg') }}" rel="apple-touch-icon"  type="image/x-icon">
+        <link rel="shortcut icon" href="{{ asset('assets/images/logo.png') }}" type="image/x-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Muli:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <!-- Responsive -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+        </head>
+<body class="hidden-bar-wrapper">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <div class="page-wrapper">
 
-  <!-- =======================================================
-  * Template Name: Flattern - v4.8.0
-  * Template URL: https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
+        <!-- Preloader -->
+        <div class="preloader">
+            <span></span>
+        </div>
 
-<body>
